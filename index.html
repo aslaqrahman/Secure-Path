@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Tue Apr 08 2025 01:09:19 GMT+0000 (Coordinated Universal Time) -->
 <html
   data-wf-domain="secure-path.webflow.io"
   data-wf-page="67bc413fb087541489026475"
@@ -90,7 +91,7 @@
 
           /* Get rid of bottom margin on last element in any rich text element */
           .w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
-              margin-bottom: 0 !important;
+            margin-bottom: 0 !important;
           }
 
           /*
@@ -115,7 +116,7 @@
 
           /* Prevent all click and hover interaction with an element */
           .pointer-events-off {
-              pointer-events: none;
+            pointer-events: none;
           }
 
           /* Enables all click and hover interaction with an element */
@@ -165,19 +166,19 @@
           }
           /* Apply "..." at 100% width */
           .truncate-width {
-                  width: 100%;
+              width: 100%;
               white-space: nowrap;
               overflow: hidden;
               text-overflow: ellipsis;
           }
           /* Removes native scrollbar */
           .no-scrollbar {
-              -ms-overflow-style: none;
-              overflow: -moz-scrollbars-none;
+              -ms-overflow-style: none;  // IE 10+
+              overflow: -moz-scrollbars-none;  // Firefox
           }
 
           .no-scrollbar::-webkit-scrollbar {
-              display: none;
+              display: none; // Safari and Chrome
           }
 
           /* Adds inline flex display */
@@ -308,36 +309,27 @@
               aria-current="page"
               class="navbar_logo-link w-nav-brand w--current"
               ><img
-                src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3).png"
+                src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e23db9cc6632251d37b3fd_LP4%20(3).png"
                 loading="lazy"
                 srcset="
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3)-p-500.png   500w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3)-p-800.png   800w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3)-p-1080.png 1080w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3)-p-1600.png 1600w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3)-p-2000.png 2000w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a3d3b6c09d4c59d49_Secure%20Path%20(3).png        2049w
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e23db9cc6632251d37b3fd_LP4%20(3)-p-500.png  500w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e23db9cc6632251d37b3fd_LP4%20(3).png       1366w
                 "
-                sizes="(max-width: 1279px) 70px, (max-width: 1439px) 5vw, 70px"
+                sizes="(max-width: 767px) 98vw, (max-width: 991px) 95vw, 940px"
                 alt=""
                 class="navbar_logo"
             /></a>
             <nav role="navigation" class="navbar_menu w-nav-menu">
               <div class="navbar_menu-right">
-                <a href="/pricing" class="button is-secondary is-small w-button"
+                <a
+                  href="https://wa.link/tum52b"
+                  target="_blank"
+                  class="button is-secondary is-small w-button"
                   >Get started</a
                 >
               </div>
             </nav>
-            <div class="navbar_menu-button w-nav-button">
-              <div class="menu-icon">
-                <div class="menu-icon_line-top"></div>
-                <div class="menu-icon_line-middle">
-                  <div class="menu-icon_line-middle-inner"></div>
-                </div>
-                <div class="menu-icon_line-bottom"></div>
-              </div>
-            </div>
+            <div class="navbar_menu-button w-nav-button"></div>
           </div>
         </div>
       </div>
@@ -356,8 +348,10 @@
               >
                 <div class="hero_text">
                   <h1 class="heading-4">
-                    <strong
-                      >Upgrade your education, not your expenses<br /></strong
+                    <strong class="bold-text-4">Upgrade your education, </strong
+                    ><span class="text-span"
+                      ><strong class="bold-text-4"
+                        >not your expenses<br /></strong></span
                     ><span class="gradient-text"
                       ><strong class="bold-text"
                         >Malaysia at Indian prices!</strong
@@ -366,54 +360,34 @@
                   </h1>
                   <div class="hero_text-paragraph">
                     <p>
-                      <strong
-                        >Top-Ranked Universities | Affordable Tuition |
-                        International Exposure</strong
+                      <strong class="bold-text-3"
+                        >Top-Ranked Universities<br />Affordable Tuition |
+                        International<br />Exposure</strong
                       ><br />
                     </p>
                   </div>
                 </div>
                 <div class="button-group">
-                  <a href="/pricing" class="button is-icon w-inline-block"
+                  <a
+                    href="https://wa.link/tum52b"
+                    target="_blank"
+                    class="button is-icon w-inline-block"
                     ><div class="text-weight-semibold text-size-regular">
-                      Let&#x27;s Talk
+                      Get Free Help
                     </div>
-                    <div class="icon-embed-xsmall w-embed">
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <svg
-                        id="Layer_1"
-                        data-name="Layer 1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                      >
-                        <defs>
-                          <style>
-                            .cls-1 {
-                              fill: currentcolor;
-                              stroke-width: 0px;
-                            }
-                          </style>
-                        </defs>
-                        <polygon
-                          class="cls-1"
-                          points="8.35 15.35 7.65 14.65 14.29 8 7.65 1.35 8.35 .65 15.71 8 8.35 15.35"
-                        />
-                        <rect
-                          class="cls-1"
-                          x="1"
-                          y="7.5"
-                          width="14"
-                          height="1"
-                        />
-                      </svg></div
-                  ></a>
+                    <img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67de46d922d52b417b27d7e7_Animation%20-%201742544064365.gif"
+                      loading="lazy"
+                      alt=""
+                      class="image"
+                  /></a>
                 </div>
               </div>
               <div class="hero_image-wrapper">
                 <img
                   class="img_hero-mobile"
-                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb08754148902651f_hero_img.webp"
-                  alt="UI Elements, time management app."
+                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7.png"
+                  alt=""
                   style="
                     -webkit-transform: translate3d(null, 40px, 0)
                       scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
@@ -426,18 +400,22 @@
                       rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                     opacity: 0;
                   "
-                  sizes="100vw"
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
                   data-w-id="28515dd6-c5a7-6828-2677-f673bbc5f851"
                   loading="lazy"
                   srcset="
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb08754148902651f_hero_img-p-500.webp  500w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb08754148902651f_hero_img-p-800.webp  800w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb08754148902651f_hero_img.webp       1000w
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7-p-500.png   500w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7-p-800.png   800w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7-p-1080.png 1080w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7-p-1600.png 1600w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7-p-2000.png 2000w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7-p-2600.png 2600w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3cc27a0363a934c2bed76_LLPP7.png        3240w
                   "
                 /><img
                   class="img_hero-1"
-                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f8_blobs.webp"
-                  alt="Abstract 3D shapes, bubbles in orange and blue."
+                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dec3713ddd1753d7f83de3_IC2%20(2).png"
+                  alt=""
                   style="
                     -webkit-transform: translate3d(null, 40px, 0)
                       scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
@@ -450,19 +428,18 @@
                       rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                     opacity: 0;
                   "
-                  sizes="(max-width: 479px) 100vw, (max-width: 991px) 320px, (max-width: 1439px) 32vw, 35vw"
+                  sizes="(max-width: 767px) 100vw, (max-width: 852px) 95vw, 810px"
                   data-w-id="d4ef5b87-80d7-9065-c7c1-de7060683e41"
                   loading="lazy"
                   srcset="
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f8_blobs-p-500.webp   500w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f8_blobs-p-800.webp   800w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f8_blobs-p-1080.webp 1080w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f8_blobs.webp        1500w
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dec3713ddd1753d7f83de3_IC2%20(2)-p-500.png 500w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dec3713ddd1753d7f83de3_IC2%20(2)-p-800.png 800w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dec3713ddd1753d7f83de3_IC2%20(2).png       810w
                   "
                 /><img
                   class="img_hero-2"
-                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026550_imghero1.webp"
-                  alt="UI element of an app, graph"
+                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3).png"
+                  alt=""
                   style="
                     -webkit-transform: translate3d(null, 40px, 0)
                       scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
@@ -475,35 +452,21 @@
                       rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                     opacity: 0;
                   "
-                  sizes="(max-width: 479px) 100vw, (max-width: 991px) 260px, (max-width: 1439px) 26vw, 29vw"
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
                   data-w-id="6a1f61ae-41fc-9307-ac1c-929a58d10fdc"
                   loading="lazy"
                   srcset="
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026550_imghero1-p-500.webp 500w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026550_imghero1-p-800.webp 800w,
-                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026550_imghero1.webp       842w
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3)-p-500.png   500w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3)-p-800.png   800w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3)-p-1080.png 1080w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3)-p-1600.png 1600w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3)-p-2000.png 2000w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349b12334e5d348d8751_LP1%20(3).png        2700w
                   "
                 /><img
-                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb08754148902654e_imghero2.webp"
-                  loading="lazy"
-                  style="
-                    -webkit-transform: translate3d(null, 40px, 0)
-                      scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
-                      skew(0, 0);
-                    -moz-transform: translate3d(null, 40px, 0) scale3d(1, 1, 1)
-                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    -ms-transform: translate3d(null, 40px, 0) scale3d(1, 1, 1)
-                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    transform: translate3d(null, 40px, 0) scale3d(1, 1, 1)
-                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                    opacity: 0;
-                  "
-                  data-w-id="f8207805-5dc1-46c4-efc8-7fe00cf56b97"
-                  alt="UI element of an app, statistics"
                   class="img_hero-4"
-                /><img
-                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb08754148902654f_imghero3.webp"
-                  loading="lazy"
+                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1).png"
+                  alt=""
                   style="
                     -webkit-transform: translate3d(null, 40px, 0)
                       scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
@@ -516,9 +479,44 @@
                       rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                     opacity: 0;
                   "
-                  data-w-id="2998ce8d-44f3-5162-d8fc-47705e0781b3"
-                  alt="UI element of an app, calendar tile"
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
+                  data-w-id="f8207805-5dc1-46c4-efc8-7fe00cf56b97"
+                  loading="lazy"
+                  srcset="
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1)-p-500.png   500w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1)-p-800.png   800w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1)-p-1080.png 1080w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1)-p-1600.png 1600w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1)-p-2000.png 2000w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae85ab406e7e9054004a_LP4%20(1).png        2732w
+                  "
+                /><img
                   class="img_hero-3"
+                  src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2.png"
+                  alt=""
+                  style="
+                    -webkit-transform: translate3d(null, 40px, 0)
+                      scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
+                      skew(0, 0);
+                    -moz-transform: translate3d(null, 40px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -ms-transform: translate3d(null, 40px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    transform: translate3d(null, 40px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    opacity: 0;
+                  "
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
+                  data-w-id="2998ce8d-44f3-5162-d8fc-47705e0781b3"
+                  loading="lazy"
+                  srcset="
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2-p-500.png   500w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2-p-800.png   800w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2-p-1080.png 1080w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2-p-1600.png 1600w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2-p-2000.png 2000w,
+                    https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67dfae836053f45e9192c0ff_LP2.png        3240w
+                  "
                 />
               </div>
             </div>
@@ -528,22 +526,8 @@
           <div class="padding-global">
             <div class="partners-logos">
               <img
-                src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10).png"
-                sizes="(max-width: 479px) 96px, (max-width: 767px) 20vw, (max-width: 991px) 15vw, (max-width: 1279px) 13vw, 128px"
-                srcset="
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-500.png   500w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-800.png   800w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-1080.png 1080w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-1600.png 1600w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-2000.png 2000w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-2600.png 2600w,
-                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10).png        2732w
-                "
-                alt=""
-                class="logo-img"
-              /><img
                 src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a56e4e3cd1a99cbbb_Secure%20Path%20(7).png"
-                sizes="(max-width: 479px) 96px, (max-width: 767px) 20vw, (max-width: 991px) 15vw, (max-width: 1279px) 13vw, 128px"
+                sizes="(max-width: 2732px) 100vw, 2732px"
                 srcset="
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a56e4e3cd1a99cbbb_Secure%20Path%20(7)-p-500.png   500w,
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a56e4e3cd1a99cbbb_Secure%20Path%20(7)-p-800.png   800w,
@@ -557,7 +541,7 @@
                 class="logo-img"
               /><img
                 src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712ae9461290d2e3db2a_Secure%20Path%20(5).png"
-                sizes="(max-width: 479px) 96px, (max-width: 767px) 20vw, (max-width: 991px) 15vw, (max-width: 1279px) 13vw, 128px"
+                sizes="(max-width: 2732px) 100vw, 2732px"
                 srcset="
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712ae9461290d2e3db2a_Secure%20Path%20(5)-p-500.png   500w,
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712ae9461290d2e3db2a_Secure%20Path%20(5)-p-800.png   800w,
@@ -571,7 +555,7 @@
                 class="logo-img"
               /><img
                 src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a79daaa797930711c_Secure%20Path%20(6).png"
-                sizes="(max-width: 479px) 96px, (max-width: 767px) 20vw, (max-width: 991px) 15vw, (max-width: 1279px) 13vw, 128px"
+                sizes="(max-width: 2732px) 100vw, 2732px"
                 srcset="
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a79daaa797930711c_Secure%20Path%20(6)-p-500.png   500w,
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a79daaa797930711c_Secure%20Path%20(6)-p-800.png   800w,
@@ -585,7 +569,7 @@
                 class="logo-img"
               /><img
                 src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a87d08a39f9e01ffc_Secure%20Path%20(8).png"
-                sizes="(max-width: 479px) 96px, (max-width: 767px) 20vw, (max-width: 991px) 15vw, (max-width: 1279px) 13vw, 128px"
+                sizes="(max-width: 2732px) 100vw, 2732px"
                 srcset="
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a87d08a39f9e01ffc_Secure%20Path%20(8)-p-500.png   500w,
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a87d08a39f9e01ffc_Secure%20Path%20(8)-p-800.png   800w,
@@ -594,6 +578,20 @@
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a87d08a39f9e01ffc_Secure%20Path%20(8)-p-2000.png 2000w,
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a87d08a39f9e01ffc_Secure%20Path%20(8)-p-2600.png 2600w,
                   https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a87d08a39f9e01ffc_Secure%20Path%20(8).png        2732w
+                "
+                alt=""
+                class="logo-img"
+              /><img
+                src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10).png"
+                sizes="(max-width: 2732px) 100vw, 2732px"
+                srcset="
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-500.png   500w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-800.png   800w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-1080.png 1080w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-1600.png 1600w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-2000.png 2000w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10)-p-2600.png 2600w,
+                  https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bd712a20afdf5ced33eecc_Secure%20Path%20(10).png        2732w
                 "
                 alt=""
                 class="logo-img"
@@ -623,7 +621,7 @@
                   "
                   class="heading-style-h6"
                 >
-                  flowup features<br />
+                  World&#x27;s Safest #10<br />
                 </h2>
                 <h3
                   data-w-id="6e8c5aff-4024-b7a9-74cb-f091c55bf2ed"
@@ -640,7 +638,7 @@
                     opacity: 0;
                   "
                 >
-                  Perfect features to<br />make your teamwork easier.<br />
+                  Study Among Giants, Live in Peace<br />
                 </h3>
               </div>
               <div
@@ -673,7 +671,7 @@
                       <div class="w-layout-grid mainfeatures_pane-content">
                         <div class="mainfeatures_image-wrapper">
                           <img
-                            sizes="(max-width: 479px) 77vw, (max-width: 767px) 80vw, (max-width: 991px) 42vw, (max-width: 1439px) 43vw, 45vw"
+                            sizes="100vw"
                             srcset="
                               https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f7_blobs3-p-500.webp   500w,
                               https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f7_blobs3-p-800.webp   800w,
@@ -721,7 +719,7 @@
                       <div class="w-layout-grid mainfeatures_pane-content">
                         <div class="mainfeatures_image-wrapper">
                           <img
-                            sizes="(max-width: 479px) 77vw, (max-width: 767px) 80vw, (max-width: 991px) 42vw, (max-width: 1439px) 43vw, 45vw"
+                            sizes="100vw"
                             srcset="
                               https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2-p-500.webp   500w,
                               https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2-p-800.webp   800w,
@@ -768,16 +766,19 @@
                       <div class="w-layout-grid mainfeatures_pane-content">
                         <div class="mainfeatures_image-wrapper">
                           <img
-                            sizes="(max-width: 479px) 77vw, (max-width: 767px) 80vw, (max-width: 991px) 42vw, (max-width: 1439px) 43vw, 45vw"
+                            sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
                             srcset="
-                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2-p-500.webp   500w,
-                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2-p-800.webp   800w,
-                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2-p-1080.webp 1080w,
-                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2.webp        1500w
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111-p-500.png   500w,
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111-p-800.png   800w,
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111-p-1080.png 1080w,
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111-p-1600.png 1600w,
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111-p-2000.png 2000w,
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111-p-2600.png 2600w,
+                              https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111.png        3240w
                             "
-                            src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264f9_blobs2.webp"
+                            src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b559950daac2c7341103_LP111.png"
                             loading="lazy"
-                            alt="Abstract 3D shapes, bubbles in orange and blue."
+                            alt=""
                             class="mainfeatures_image"
                           />
                         </div>
@@ -790,17 +791,16 @@
                               <strong class="bold-text-2">Why Malaysia?</strong
                               ><br />
                             </h3>
-                            <p>
-                              🎯 <strong>70% Lower Tuition </strong>– Global
-                              degree, budget-friendly<br />‍<br />🏡
-                              <strong>Affordable Living</strong> – Just like
-                              India<br />‍<br />✈️
-                              <strong>Easy Travel</strong> – Direct, low-cost
-                              flights<br />‍<br />🎓
-                              <strong>World-Ranked Universities</strong> –
-                              Recognized<br />worldwide<br />‍<br />💼
-                              <strong>1-Year Post-Graduation Pass</strong> –
-                              Work &amp; grow in Malaysia<br />
+                            <p class="paragraph-3">
+                              ✔ <strong>70% Lower Tuition: </strong>Global
+                              degree, budget-friendly<br />‍<br />✔
+                              <strong>Affordable Living:</strong> Just like
+                              India<br />‍<br />✔ <strong>Easy Travel</strong>:
+                              Direct, low-cost flights<br />‍<br />✔
+                              <strong>World-Ranked Universities:</strong>
+                              Recognized worldwide<br />‍<br />✔
+                              <strong>1-Year Post-Graduation Pass: </strong>Work
+                              &amp; grow in Malaysia<br />
                             </p>
                           </div>
                           <div class="button-group">
@@ -855,10 +855,11 @@
                   "
                   class="heading-style-h6"
                 >
-                  we are flowup<br />
+                  MALAYSIA&#x27;S TRUSTED PARTNER<br />
                 </h2>
                 <h3 class="heading-style-h4">
-                  We are results-driven, and it shows. Take a look.<br />
+                  The <span class="text-span-2">smart choice</span> for Indian
+                  students.<br />
                 </h3>
               </div>
               <div
@@ -878,36 +879,12 @@
               >
                 <div class="insights_tile">
                   <div class="icon-rect-medium">
-                    <div class="icon-large w-embed">
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <svg
-                        id="Layer_1"
-                        data-name="Layer 1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 32 32"
-                      >
-                        <defs>
-                          <style>
-                            .cls-1 {
-                              fill: currentcolor;
-                              stroke-width: 0px;
-                            }
-                          </style>
-                        </defs>
-                        <path
-                          class="cls-1"
-                          d="m11.05,11.05c.65-.64,1.39-1.15,2.23-1.5L9.77,1.26c-1.91.81-3.62,1.96-5.08,3.43-1.47,1.47-2.62,3.18-3.43,5.08l8.29,3.51c.35-.83.86-1.58,1.5-2.23Z"
-                        />
-                        <path
-                          class="cls-1"
-                          d="m11.05,20.95c-.64-.65-1.15-1.39-1.5-2.22-.36-.86-.55-1.78-.55-2.73H0c0,2.16.42,4.25,1.26,6.23.81,1.91,1.96,3.62,3.43,5.08,1.47,1.47,3.18,2.62,5.08,3.43,1.97.83,4.07,1.26,6.23,1.26v-9c-.95,0-1.86-.18-2.72-.55-.83-.35-1.58-.86-2.23-1.5Z"
-                        />
-                        <path
-                          class="cls-1"
-                          d="m30.74,9.77c-.81-1.91-1.96-3.62-3.43-5.08-1.47-1.47-3.18-2.62-5.08-3.43C20.25.42,18.16,0,16,0v9c.95,0,1.86.18,2.72.55.83.35,1.58.86,2.23,1.5.64.65,1.15,1.39,1.5,2.22.36.86.55,1.78.55,2.72s-.18,1.86-.55,2.72c-.35.83-.86,1.58-1.5,2.23-.65.64-1.39,1.15-2.23,1.5l3.51,8.29c1.91-.81,3.62-1.96,5.08-3.43,1.47-1.47,2.62-3.18,3.43-5.09.83-1.98,1.26-4.07,1.26-6.23s-.42-4.25-1.26-6.23Z"
-                        />
-                      </svg>
-                    </div>
+                    <img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3caeafc0e2048b0e22725_Academic%20Background.gif"
+                      loading="lazy"
+                      width="540"
+                      alt=""
+                    />
                   </div>
                   <div class="insights_text-wrapper">
                     <div class="heading-style-h1">300+</div>
@@ -918,32 +895,11 @@
                 </div>
                 <div class="insights_tile">
                   <div class="icon-rect-medium">
-                    <div class="icon-large w-embed">
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <svg
-                        id="Layer_1"
-                        data-name="Layer 1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 32 32"
-                      >
-                        <defs>
-                          <style>
-                            .cls-1 {
-                              fill: currentcolor;
-                              stroke-width: 0px;
-                            }
-                          </style>
-                        </defs>
-                        <path
-                          class="cls-1"
-                          d="m16,23c-3.86,0-7-3.14-7-7H0c0,8.82,7.18,16,16,16s16-7.18,16-16h-9c0,3.86-3.14,7-7,7Z"
-                        />
-                        <path
-                          class="cls-1"
-                          d="m16,16C24.82,16,32,8.82,32,0h-9c0,3.86-3.14,7-7,7S9,3.86,9,0H0C0,8.82,7.18,16,16,16Z"
-                        />
-                      </svg>
-                    </div>
+                    <img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3caeab021975f571524ab_Income.gif"
+                      loading="lazy"
+                      alt=""
+                    />
                   </div>
                   <div class="insights_text-wrapper">
                     <div class="heading-style-h1">5x</div>
@@ -954,34 +910,11 @@
                 </div>
                 <div class="insights_tile">
                   <div class="icon-rect-medium">
-                    <div class="icon-large w-embed">
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <svg
-                        id="Layer_1"
-                        data-name="Layer 1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 32 32"
-                      >
-                        <defs>
-                          <style>
-                            .cls-1 {
-                              fill: currentcolor;
-                              stroke-width: 0px;
-                            }
-                          </style>
-                        </defs>
-                        <circle class="cls-1" cx="7.5" cy="7.5" r="7.5" />
-                        <path
-                          class="cls-1"
-                          d="m24.5,15c4.14,0,7.5-3.36,7.5-7.5S28.64,0,24.5,0s-7.5,3.36-7.5,7.5,3.36,7.5,7.5,7.5Zm0-10c1.38,0,2.5,1.12,2.5,2.5s-1.12,2.5-2.5,2.5-2.5-1.12-2.5-2.5,1.12-2.5,2.5-2.5Z"
-                        />
-                        <path
-                          class="cls-1"
-                          d="m7.5,17c-4.14,0-7.5,3.36-7.5,7.5s3.36,7.5,7.5,7.5,7.5-3.36,7.5-7.5-3.36-7.5-7.5-7.5Zm0,10c-1.38,0-2.5-1.12-2.5-2.5s1.12-2.5,2.5-2.5,2.5,1.12,2.5,2.5-1.12,2.5-2.5,2.5Z"
-                        />
-                        <circle class="cls-1" cx="24.5" cy="24.5" r="7.5" />
-                      </svg>
-                    </div>
+                    <img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3caea3fc51e8a99112359_Open%20Door.gif"
+                      loading="lazy"
+                      alt=""
+                    />
                   </div>
                   <div class="insights_text-wrapper">
                     <div class="heading-style-h1">92%</div>
@@ -992,45 +925,11 @@
                 </div>
                 <div class="insights_tile">
                   <div class="icon-rect-medium">
-                    <div class="icon-large w-embed">
-                      <?xml version="1.0" encoding="UTF-8"?>
-                      <svg
-                        id="Layer_1"
-                        data-name="Layer 1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 32 32"
-                      >
-                        <defs>
-                          <style>
-                            .cls-1 {
-                              fill: currentcolor;
-                              stroke-width: 0px;
-                            }
-                          </style>
-                        </defs>
-                        <rect
-                          class="cls-1"
-                          x=".09"
-                          y="0"
-                          width="32"
-                          height="9"
-                        />
-                        <rect
-                          class="cls-1"
-                          x="0"
-                          y="11.5"
-                          width="17"
-                          height="9"
-                        />
-                        <rect
-                          class="cls-1"
-                          x="6.09"
-                          y="23"
-                          width="26"
-                          height="9"
-                        />
-                      </svg>
-                    </div>
+                    <img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3caeadff620f2530508c4_Support.gif"
+                      loading="lazy"
+                      alt=""
+                    />
                   </div>
                   <div class="insights_text-wrapper">
                     <div class="heading-style-h1">24/7</div>
@@ -1083,8 +982,8 @@
                 </h2>
                 <h3 class="heading-5">
                   <strong
-                    >We know Secure Path is the best way to study in
-                    Malaysia—but </strong
+                    >We know Secure Path is the best way to study in Malaysia,
+                    But </strong
                   >‍<strong
                     >don’t just take our word for it. Hear from our happy
                     students!</strong
@@ -1107,78 +1006,34 @@
                 class="testimonial_inner-wrapper"
               >
                 <div class="testimonial_image-wrapper">
-                  <div class="heading-style-h1">75.54%</div>
+                  <div class="heading-style-h1">92%</div>
                   <div class="text-size-small">
-                    Team satisfaction improvement
+                    Say they got better value than Indian private colleges
                   </div>
                 </div>
                 <div class="testimonial_content">
                   <div class="testimonial_rating-wrapper">
-                    <div class="testimonial_rating-icon w-embed">
-                      <svg
-                        width="100%"
-                        viewBox="0 0 18 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </div>
-                    <div class="testimonial_rating-icon w-embed">
-                      <svg
-                        width="100%"
-                        viewBox="0 0 18 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </div>
-                    <div class="testimonial_rating-icon w-embed">
-                      <svg
-                        width="100%"
-                        viewBox="0 0 18 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </div>
-                    <div class="testimonial_rating-icon w-embed">
-                      <svg
-                        width="100%"
-                        viewBox="0 0 18 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </div>
-                    <div class="testimonial_rating-icon w-embed">
-                      <svg
-                        width="100%"
-                        viewBox="0 0 18 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                    </div>
+                    <img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3daaf3bf037caf393ce77_AD%20111.svg"
+                      loading="lazy"
+                      alt=""
+                    /><img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3daaf3bf037caf393ce77_AD%20111.svg"
+                      loading="lazy"
+                      alt=""
+                    /><img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3daaf3bf037caf393ce77_AD%20111.svg"
+                      loading="lazy"
+                      alt=""
+                    /><img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3daaf3bf037caf393ce77_AD%20111.svg"
+                      loading="lazy"
+                      alt=""
+                    /><img
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67f3daaf3bf037caf393ce77_AD%20111.svg"
+                      loading="lazy"
+                      alt=""
+                    />
                   </div>
                   <div class="margin-bottom margin-small">
                     <div class="text-style-quote">
@@ -1193,23 +1048,25 @@
                   <div class="testimonial_client">
                     <div class="testimonial_client-image-wrapper">
                       <img
-                        src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026522_pexels-tima-miroshnichenko-5717546.jpg"
+                        src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e2ccc14578bb2026eb6350_LP555%20(2).png"
                         loading="lazy"
-                        sizes="48px"
+                        sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
                         srcset="
-                          https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026522_pexels-tima-miroshnichenko-5717546-p-500.jpg 500w,
-                          https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb087541489026522_pexels-tima-miroshnichenko-5717546.jpg       640w
+                          https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e2ccc14578bb2026eb6350_LP555%20(2)-p-500.png   500w,
+                          https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e2ccc14578bb2026eb6350_LP555%20(2)-p-800.png   800w,
+                          https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e2ccc14578bb2026eb6350_LP555%20(2)-p-1080.png 1080w,
+                          https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e2ccc14578bb2026eb6350_LP555%20(2).png        1890w
                         "
-                        alt="Portrait of a businesswoman."
+                        alt=""
                         class="testimonial_customer-image"
                       />
                     </div>
                     <div class="testimonial_client-info">
                       <p class="text-weight-semibold text-size-regular">
-                        Shiva
+                        Aparna
                       </p>
                       <p class="text-weight-normal text-size-tiny">
-                        Position, Company name
+                        Master of Business Administration
                       </p>
                     </div>
                   </div>
@@ -1257,7 +1114,8 @@
                   this is how it works<br />
                 </h2>
                 <h2 class="heading-style-h3">
-                  <strong>How We Help 🎯</strong><br />
+                  <span class="text-span-3"><strong>How We Help</strong></span
+                  ><strong> 🎯</strong><br />
                 </h2>
               </div>
               <div class="w-layout-grid features_component">
@@ -1280,16 +1138,17 @@
                 >
                   <div class="features_image-wrapper">
                     <img
-                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fb_img3.webp"
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349a42e9e33b39577e53_LP555%20(3).png"
                       loading="lazy"
-                      sizes="(max-width: 479px) 80vw, (max-width: 991px) 63vw, (max-width: 1439px) 44vw, 45vw"
+                      sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
                       srcset="
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fb_img3-p-500.webp   500w,
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fb_img3-p-800.webp   800w,
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fb_img3-p-1080.webp 1080w,
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fb_img3.webp        1154w
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349a42e9e33b39577e53_LP555%20(3)-p-500.png   500w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349a42e9e33b39577e53_LP555%20(3)-p-800.png   800w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349a42e9e33b39577e53_LP555%20(3)-p-1080.png 1080w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349a42e9e33b39577e53_LP555%20(3)-p-1600.png 1600w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67ee349a42e9e33b39577e53_LP555%20(3).png        2160w
                       "
-                      alt="UI Elements, time management app."
+                      alt=""
                       class="features_image"
                     />
                   </div>
@@ -1298,13 +1157,13 @@
                     class="features_content"
                   >
                     <p class="text-weight-normal text-size-regular">
-                      ✔ <strong>Personalized University Matching</strong> – Get
-                      placed in a top-ranked university that fits your budget,
-                      course, and career goals.<br />‍<br />✔
-                      <strong>100% Visa Success Support </strong>– We handle all
-                      paperwork for a smooth, stress-free process.<br />‍<br />✔
-                      <strong>Hassle-Free Accommodation</strong> – Secure
-                      safe,<br />budget-friendly student housing near campus
+                      ✔ <strong>Personalized University Matching</strong> <br />
+                      Get placed in a top-ranked university that fits your
+                      budget, course, and career goals.<br />‍<br />✔
+                      <strong>100% Visa Success Support<br /> </strong> We
+                      handle all paperwork for a smooth, stress-free process.<br />‍<br />✔
+                      <strong>Hassle-Free Accommodation<br />‍</strong>Secure
+                      safe, budget-friendly student housing near campus
                     </p>
                   </div>
                 </div>
@@ -1329,13 +1188,13 @@
                     class="features_content"
                   >
                     <p class="text-weight-normal text-size-regular">
-                      ✔ <strong>Scholarship Assistance</strong> – Maximize
-                      your<br />savings with exclusive tuition fee waivers.<br />‍<br />✔
-                      <strong>Internships &amp; Career Guidance</strong> – Gain
-                      real-<br />world experience through internships, part-<br />time
-                      jobs &amp; post-study opportunities.<br />‍<br />✔
-                      <strong>Secure Path Student Community</strong> – Join a<br />thriving
-                      network of Indian students in<br />Malaysia!<br />
+                      ✔ <strong>Scholarship Assistance</strong> <br />Maximize
+                      your savings with exclusive tuition fee waivers.<br />‍<br />✔
+                      <strong>Internships &amp; Career Guidance</strong>
+                      <br />Gain real-world experience through internships,
+                      part-time jobs &amp; post-study opportunities.<br />‍<br />✔
+                      <strong>Secure Path Student Community</strong> <br />
+                      Join a thriving network of Indian students in Malaysia!<br />
                     </p>
                   </div>
                   <div
@@ -1343,23 +1202,28 @@
                     class="features_image-wrapper"
                   >
                     <img
-                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fa_img2.webp"
+                      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1).png"
                       loading="lazy"
-                      sizes="(max-width: 479px) 80vw, (max-width: 991px) 63vw, (max-width: 1439px) 43vw, 45vw"
+                      sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"
                       srcset="
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fa_img2-p-500.webp   500w,
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fa_img2-p-800.webp   800w,
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fa_img2-p-1080.webp 1080w,
-                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc413fb0875414890264fa_img2.webp        1460w
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1)-p-500.png   500w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1)-p-800.png   800w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1)-p-1080.png 1080w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1)-p-1600.png 1600w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1)-p-2000.png 2000w,
+                        https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67e0b55906a4f0bcadd9553a_LP333%20(1).png        3240w
                       "
-                      alt="UI Elements, time management app."
+                      alt=""
                       class="features_image"
                     />
                   </div>
                 </div>
               </div>
               <div class="button-group align-center">
-                <a href="/pricing" class="button is-secondary w-button"
+                <a
+                  href="https://wa.link/tum52b"
+                  target="_blank"
+                  class="button is-secondary w-button"
                   >Let&#x27;s Talk</a
                 >
               </div>
@@ -1438,7 +1302,8 @@
                             >Malaysia offers top-ranked universities at a
                             fraction of the cost. Living expenses are similar to
                             India, flights are cheaper, and the</strong
-                          >‍<strong
+                          >
+                          <strong
                             >healthcare system is affordable. You get
                             international exposure without the high financial
                             burden.</strong
@@ -1593,81 +1458,18 @@
               </div>
               <div class="faq_cta">
                 <div class="section-header text-align-center">
-                  <h3>Still have a question?</h3>
+                  <h3>Still unsure about Malaysia?</h3>
                   <p class="text-size-medium">
-                    We’re here to help! Get in touch and let’s make your study
-                    abroad journeysmooth and stress-free.
+                    Book a free 10-min call – we’ll prove it in 5.
                   </p>
                 </div>
                 <div class="button-group align-center">
-                  <a href="/about" class="button w-button">Book a call</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          data-w-id="f09f8f88-89db-921a-712f-8b274a69b61f"
-          style="opacity: 0"
-          class="section_cta"
-        >
-          <div
-            class="w-layout-blockcontainer padding-global padding-section-medium w-container"
-          >
-            <div class="cta_wrapper">
-              <div class="cta_header">
-                <h2 class="text-color-invert">
-                  Get to know us more. Join our newsletter.
-                </h2>
-                <p class="text-size-medium text-color-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique.
-                </p>
-              </div>
-              <div class="cta_form-block w-form">
-                <form
-                  id="wf-form-Newsletter-form-2"
-                  name="wf-form-Newsletter-form-2"
-                  data-name="Newsletter form"
-                  method="get"
-                  class="cta_form"
-                  data-wf-page-id="67bc413fb087541489026475"
-                  data-wf-element-id="f09f8f88-89db-921a-712f-8b274a69b62b"
-                  data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"
-                >
-                  <div class="signup-form-wrapper">
-                    <input
-                      class="form-input w-input"
-                      maxlength="256"
-                      name="Email"
-                      data-name="Email"
-                      placeholder="Enter your email"
-                      type="email"
-                      id="Email-4"
-                      required=""
-                    /><a
-                      href="/"
-                      aria-current="page"
-                      class="button w-button w--current"
-                      >Join now</a
-                    >
-                  </div>
-                  <div class="text-align-left">
-                    <div class="text-size-small text-align-center">
-                      By clicking Sign Up you&#x27;re confirming that you agree
-                      with our Terms and Conditions.
-                    </div>
-                  </div>
-                </form>
-                <div class="success-message w-form-done">
-                  <div class="success-text">
-                    Thank you! Your submission has been received!
-                  </div>
-                </div>
-                <div class="error-message w-form-fail">
-                  <div class="error-text">
-                    Oops! Something went wrong while submitting the form.
-                  </div>
+                  <a
+                    href="https://wa.link/tum52b"
+                    target="_blank"
+                    class="button w-button"
+                    >Book a call</a
+                  >
                 </div>
               </div>
             </div>
@@ -1695,7 +1497,7 @@
                     https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc6760f6e758afcd4b7b47_Secure%20Path%20Logo%20(2)-p-2000.png 2000w,
                     https://cdn.prod.website-files.com/67bc413fb0875414890263e9/67bc6760f6e758afcd4b7b47_Secure%20Path%20Logo%20(2).png        2160w
                   "
-                  sizes="138px"
+                  sizes="(max-width: 767px) 98vw, (max-width: 991px) 95vw, 940px"
                   alt=""
                   class="footer_logo-image"
               /></a>
@@ -1748,7 +1550,7 @@
           <div class="line-divider background-color-white"></div>
           <div class="footer_bottom-wrapper">
             <div class="footer_credit-text">
-              Designed by <a href="https://www.coluto.io/">AR </a>
+              Designed by <a href="#">AR </a>
             </div>
             <div class="w-layout-grid footer_legal-list">
               <a
@@ -1777,6 +1579,14 @@
       type="text/javascript"
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/js/webflow.schunk.4a394eb5af8156f2.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdn.prod.website-files.com/67bc413fb0875414890263e9/js/webflow.schunk.9b11d8a2c3e1803d.js"
+      type="text/javascript"
     ></script>
     <script src="script.js" type="text/javascript"></script>
   </body>
